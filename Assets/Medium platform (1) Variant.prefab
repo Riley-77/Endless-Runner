@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1647157015811414207, guid: 0e6931871c0d2ae488df6912c5aa2f80, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647157015811414207, guid: 0e6931871c0d2ae488df6912c5aa2f80, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7830189
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647157015811414207, guid: 0e6931871c0d2ae488df6912c5aa2f80, type: 3}
+      propertyPath: m_Color.r
+      value: 0.050139446
+      objectReference: {fileID: 0}
     - target: {fileID: 2530538568512867484, guid: 0e6931871c0d2ae488df6912c5aa2f80, type: 3}
       propertyPath: m_Name
       value: Medium platform (1) Variant
