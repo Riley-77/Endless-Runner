@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5340583084701834481}
   - component: {fileID: 528203962099510501}
+  - component: {fileID: 5775673541877377829}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -48,5 +49,20 @@ MonoBehaviour:
   - {fileID: 2530538568512867484, guid: 0e6931871c0d2ae488df6912c5aa2f80, type: 3}
   - {fileID: 8364817356305334718, guid: 10af37c595906404fa39082887419dbc, type: 3}
   - {fileID: 8841528267479351817, guid: a23f6225b90517743a42862ab8d7b102, type: 3}
+  minSpawnTime: 0.5
+  maxSpawnTime: 3
+--- !u!114 &5775673541877377829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8515479381594987990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbcc3d6df8020e641a6550bc7a692159, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToSpawn: []
   minSpawnTime: 0.5
   maxSpawnTime: 3
