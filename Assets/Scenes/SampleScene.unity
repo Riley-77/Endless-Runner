@@ -776,10 +776,15 @@ GameObject:
   - component: {fileID: 930210476}
   - component: {fileID: 930210475}
   - component: {fileID: 930210478}
+  - component: {fileID: 930210479}
   - component: {fileID: 930210480}
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 930210481}
   m_Layer: 3
+=======
+  m_Layer: 0
+>>>>>>> parent of bf6cb66 (character run)
   m_Name: Square
 =======
   m_Layer: 3
@@ -816,7 +821,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!212 &930210476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -860,10 +865,14 @@ SpriteRenderer:
   m_SortingOrder: 0
 <<<<<<< HEAD
   m_Sprite: {fileID: 7482667652216324306, guid: e2b38da2c5df4bc478b14e6e60dce48a, type: 3}
+<<<<<<< HEAD
 =======
   m_Sprite: {fileID: -188000528, guid: 834d65b934cab094a95ebc7b1863d035, type: 3}
 >>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+>>>>>>> parent of bf6cb66 (character run)
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -883,12 +892,17 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -6.74, y: -3.41, z: 0}
   m_LocalScale: {x: 0.9390685, y: 1.0018183, z: 2.0025997}
 =======
   m_LocalPosition: {x: -7.51, y: -3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
+=======
+  m_LocalPosition: {x: -7.51, y: -3.11, z: 0}
+  m_LocalScale: {x: 0.30519554, y: 0.5717281, z: 0.98232}
+>>>>>>> parent of bf6cb66 (character run)
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -939,7 +953,10 @@ BoxCollider2D:
   m_Size: {x: 0.48476124, y: 0.7209797}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of bf6cb66 (character run)
 --- !u!114 &930210479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -949,6 +966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 930210474}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: dd7d474ec4182264aae15c050f18b137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -964,6 +982,11 @@ MonoBehaviour:
   sfxPlayer: {fileID: 0}
   musicPlayer: {fileID: 0}
 >>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
+=======
+  m_Script: {fileID: 11500000, guid: 98d5e2a6ba820784185e14d9fef620ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> parent of bf6cb66 (character run)
 --- !u!114 &930210480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -980,10 +1003,11 @@ MonoBehaviour:
   moveSpeed: 10
   jumpForce: 9
   groundCheckPoint: {fileID: 930210477}
-  checkRadius: 1
+  checkRadius: 0.65
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+<<<<<<< HEAD
 --- !u!95 &930210481
 Animator:
   serializedVersion: 5
@@ -1007,6 +1031,8 @@ Animator:
   m_WriteDefaultValuesOnDisable: 0
 =======
 >>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
+=======
+>>>>>>> parent of bf6cb66 (character run)
 --- !u!4 &1118385532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340583084701834481, guid: 36fb22596e21c68488116413cc746700, type: 3}
