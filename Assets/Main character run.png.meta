@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6c9219dc2891baf4780e0b57cceeac3e
+=======
+guid: 834d65b934cab094a95ebc7b1863d035
+>>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +38,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -163,8 +171,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 30e158dc16bc00548ab4db63a0e96e21
       internalID: 67096164
+=======
+      spriteID: f1e931f28d9f7cf44a690175f128db67
+      internalID: -188000528
+>>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
       vertices: []
       indices: 
       edges: []
@@ -184,8 +197,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 0f672f55b12858543830b0a64d6d3ed0
       internalID: 1765824488
+=======
+      spriteID: e5e9d18a396673745bdc99836995277b
+      internalID: -391701118
+>>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
       vertices: []
       indices: 
       edges: []
@@ -201,8 +219,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+<<<<<<< HEAD
       Main character run_0: 67096164
       Main character run_1: 1765824488
+=======
+      Main character run_0: -188000528
+      Main character run_1: -391701118
+>>>>>>> 5d366381a46d0312917a407484f4d709c29526fe
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

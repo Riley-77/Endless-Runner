@@ -11,7 +11,7 @@ public class Parallax : MonoBehaviour
     public float speed = 0.5f;
     void Start()
     {
-        player = GameObject.Find("Square");
+        player = GameObject.Find("player");
         rend = GetComponent<Renderer>();
     }
     void Update()
