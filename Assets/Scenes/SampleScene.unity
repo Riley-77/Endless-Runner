@@ -902,6 +902,7 @@ GameObject:
   - component: {fileID: 930210478}
   - component: {fileID: 930210480}
   - component: {fileID: 930210481}
+  - component: {fileID: 930210482}
   m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
@@ -997,7 +998,7 @@ Transform:
   m_GameObject: {fileID: 930210474}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.69, y: -3.03, z: 0}
+  m_LocalPosition: {x: -7.61, y: 1.31, z: 0}
   m_LocalScale: {x: 2.4475138, y: 2.2824826, z: 3.4356844}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1081,6 +1082,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &930210482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930210474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7d474ec4182264aae15c050f18b137, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 10
+  groundCheckPoint: {fileID: 0}
+  checkRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  jump: {fileID: 0}
+  backgroundMusic: {fileID: 0}
+  sfxPlayer: {fileID: 0}
+  musicPlayer: {fileID: 0}
 --- !u!4 &1118385532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340583084701834481, guid: 36fb22596e21c68488116413cc746700, type: 3}
