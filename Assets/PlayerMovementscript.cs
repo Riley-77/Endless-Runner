@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;           //layer of ground object
 
     private Rigidbody2D rb;                 //makes rigidbody2d now rb
-    private bool isGrounded;                //is player on ground
+    public bool isGrounded;                //is player on ground
 
     public AudioClip jump;
     public AudioClip backgroundMusic;

@@ -1547,6 +1547,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  isGrounded: 1
   jump: {fileID: 8300000, guid: e57580f874c85af468a8bee3ca4dd010, type: 3}
   backgroundMusic: {fileID: 0}
   sfxPlayer: {fileID: 0}
