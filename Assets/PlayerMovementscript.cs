@@ -39,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             sfxPlayer.PlayOneShot(jump);
             Jump();
+            Debug.Log("jump");
         }
     }
 
